@@ -1,0 +1,1637 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StartPage> renders correctly when no maze is initialised 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    initialiseGame={[Function]}
+    mazeView=""
+    setMazeHeight={[Function]}
+    setMazeWidth={[Function]}
+    setPonyName={[Function]}
+    solveMaze={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="description"
+>
+          Here is my amazing maze where you can save the pony from monster. Try it out! 
+          <br />
+          Width: 
+          <input
+                    onChange={[Function]}
+          />
+          <br />
+          Height: 
+          <input
+                    onChange={[Function]}
+          />
+          <br />
+          Pony name:
+           
+          <select
+                    onChange={[Function]}
+          >
+                    <option
+                              value="Twilight Sparkle"
+                    >
+                              Twilight Sparkle
+                    </option>
+                    <option
+                              value="Rainbow Dash"
+                    >
+                              Rainbow Dash
+                    </option>
+                    <option
+                              value="Pinkie Pie"
+                    >
+                              Pinkie Pie
+                    </option>
+                    <option
+                              value="Rarity"
+                    >
+                              Rarity
+                    </option>
+                    <option
+                              value="Applejack"
+                    >
+                              Applejack
+                    </option>
+                    <option
+                              value="Fluttershy"
+                    >
+                              Fluttershy
+                    </option>
+                    <option
+                              value="Spike"
+                    >
+                              Spike
+                    </option>
+          </select>
+</div>,
+        <div
+          className="buttons"
+>
+          <button
+                    className="button"
+                    onClick={[Function]}
+          >
+                    Start a new maze
+          </button>
+</div>,
+        false,
+      ],
+      "className": "container c1",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Here is my amazing maze where you can save the pony from monster. Try it out! ",
+            <br />,
+            "Width: ",
+            <input
+              onChange={[Function]}
+/>,
+            <br />,
+            "Height: ",
+            <input
+              onChange={[Function]}
+/>,
+            <br />,
+            "Pony name:",
+            " ",
+            <select
+              onChange={[Function]}
+>
+              <option
+                            value="Twilight Sparkle"
+              >
+                            Twilight Sparkle
+              </option>
+              <option
+                            value="Rainbow Dash"
+              >
+                            Rainbow Dash
+              </option>
+              <option
+                            value="Pinkie Pie"
+              >
+                            Pinkie Pie
+              </option>
+              <option
+                            value="Rarity"
+              >
+                            Rarity
+              </option>
+              <option
+                            value="Applejack"
+              >
+                            Applejack
+              </option>
+              <option
+                            value="Fluttershy"
+              >
+                            Fluttershy
+              </option>
+              <option
+                            value="Spike"
+              >
+                            Spike
+              </option>
+</select>,
+          ],
+          "className": "description",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Here is my amazing maze where you can save the pony from monster. Try it out! ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          "Width: ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          "Height: ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          "Pony name:",
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <option
+                  value="Twilight Sparkle"
+>
+                  Twilight Sparkle
+</option>,
+                <option
+                  value="Rainbow Dash"
+>
+                  Rainbow Dash
+</option>,
+                <option
+                  value="Pinkie Pie"
+>
+                  Pinkie Pie
+</option>,
+                <option
+                  value="Rarity"
+>
+                  Rarity
+</option>,
+                <option
+                  value="Applejack"
+>
+                  Applejack
+</option>,
+                <option
+                  value="Fluttershy"
+>
+                  Fluttershy
+</option>,
+                <option
+                  value="Spike"
+>
+                  Spike
+</option>,
+              ],
+              "onChange": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Twilight Sparkle",
+                  "value": "Twilight Sparkle",
+                },
+                "ref": null,
+                "rendered": "Twilight Sparkle",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Rainbow Dash",
+                  "value": "Rainbow Dash",
+                },
+                "ref": null,
+                "rendered": "Rainbow Dash",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Pinkie Pie",
+                  "value": "Pinkie Pie",
+                },
+                "ref": null,
+                "rendered": "Pinkie Pie",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Rarity",
+                  "value": "Rarity",
+                },
+                "ref": null,
+                "rendered": "Rarity",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Applejack",
+                  "value": "Applejack",
+                },
+                "ref": null,
+                "rendered": "Applejack",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Fluttershy",
+                  "value": "Fluttershy",
+                },
+                "ref": null,
+                "rendered": "Fluttershy",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Spike",
+                  "value": "Spike",
+                },
+                "ref": null,
+                "rendered": "Spike",
+                "type": "option",
+              },
+            ],
+            "type": "select",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <button
+            className="button"
+            onClick={[Function]}
+>
+            Start a new maze
+</button>,
+          "className": "buttons",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Start a new maze",
+            "className": "button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Start a new maze",
+          "type": "button",
+        },
+        "type": "div",
+      },
+      false,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="description"
+>
+            Here is my amazing maze where you can save the pony from monster. Try it out! 
+            <br />
+            Width: 
+            <input
+                        onChange={[Function]}
+            />
+            <br />
+            Height: 
+            <input
+                        onChange={[Function]}
+            />
+            <br />
+            Pony name:
+             
+            <select
+                        onChange={[Function]}
+            >
+                        <option
+                                    value="Twilight Sparkle"
+                        >
+                                    Twilight Sparkle
+                        </option>
+                        <option
+                                    value="Rainbow Dash"
+                        >
+                                    Rainbow Dash
+                        </option>
+                        <option
+                                    value="Pinkie Pie"
+                        >
+                                    Pinkie Pie
+                        </option>
+                        <option
+                                    value="Rarity"
+                        >
+                                    Rarity
+                        </option>
+                        <option
+                                    value="Applejack"
+                        >
+                                    Applejack
+                        </option>
+                        <option
+                                    value="Fluttershy"
+                        >
+                                    Fluttershy
+                        </option>
+                        <option
+                                    value="Spike"
+                        >
+                                    Spike
+                        </option>
+            </select>
+</div>,
+          <div
+            className="buttons"
+>
+            <button
+                        className="button"
+                        onClick={[Function]}
+            >
+                        Start a new maze
+            </button>
+</div>,
+          false,
+        ],
+        "className": "container c1",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Here is my amazing maze where you can save the pony from monster. Try it out! ",
+              <br />,
+              "Width: ",
+              <input
+                onChange={[Function]}
+/>,
+              <br />,
+              "Height: ",
+              <input
+                onChange={[Function]}
+/>,
+              <br />,
+              "Pony name:",
+              " ",
+              <select
+                onChange={[Function]}
+>
+                <option
+                                value="Twilight Sparkle"
+                >
+                                Twilight Sparkle
+                </option>
+                <option
+                                value="Rainbow Dash"
+                >
+                                Rainbow Dash
+                </option>
+                <option
+                                value="Pinkie Pie"
+                >
+                                Pinkie Pie
+                </option>
+                <option
+                                value="Rarity"
+                >
+                                Rarity
+                </option>
+                <option
+                                value="Applejack"
+                >
+                                Applejack
+                </option>
+                <option
+                                value="Fluttershy"
+                >
+                                Fluttershy
+                </option>
+                <option
+                                value="Spike"
+                >
+                                Spike
+                </option>
+</select>,
+            ],
+            "className": "description",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Here is my amazing maze where you can save the pony from monster. Try it out! ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            "Width: ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            "Height: ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            "Pony name:",
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <option
+                    value="Twilight Sparkle"
+>
+                    Twilight Sparkle
+</option>,
+                  <option
+                    value="Rainbow Dash"
+>
+                    Rainbow Dash
+</option>,
+                  <option
+                    value="Pinkie Pie"
+>
+                    Pinkie Pie
+</option>,
+                  <option
+                    value="Rarity"
+>
+                    Rarity
+</option>,
+                  <option
+                    value="Applejack"
+>
+                    Applejack
+</option>,
+                  <option
+                    value="Fluttershy"
+>
+                    Fluttershy
+</option>,
+                  <option
+                    value="Spike"
+>
+                    Spike
+</option>,
+                ],
+                "onChange": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Twilight Sparkle",
+                    "value": "Twilight Sparkle",
+                  },
+                  "ref": null,
+                  "rendered": "Twilight Sparkle",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Rainbow Dash",
+                    "value": "Rainbow Dash",
+                  },
+                  "ref": null,
+                  "rendered": "Rainbow Dash",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Pinkie Pie",
+                    "value": "Pinkie Pie",
+                  },
+                  "ref": null,
+                  "rendered": "Pinkie Pie",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Rarity",
+                    "value": "Rarity",
+                  },
+                  "ref": null,
+                  "rendered": "Rarity",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Applejack",
+                    "value": "Applejack",
+                  },
+                  "ref": null,
+                  "rendered": "Applejack",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Fluttershy",
+                    "value": "Fluttershy",
+                  },
+                  "ref": null,
+                  "rendered": "Fluttershy",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Spike",
+                    "value": "Spike",
+                  },
+                  "ref": null,
+                  "rendered": "Spike",
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className="button"
+              onClick={[Function]}
+>
+              Start a new maze
+</button>,
+            "className": "buttons",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Start a new maze",
+              "className": "button",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Start a new maze",
+            "type": "button",
+          },
+          "type": "div",
+        },
+        false,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<StartPage> renders correctly when there is a mazeView 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    initialiseGame={[Function]}
+    mazeView="a maze view"
+    setMazeHeight={[Function]}
+    setMazeWidth={[Function]}
+    setPonyName={[Function]}
+    solveMaze={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="description"
+>
+          Here is my amazing maze where you can save the pony from monster. Try it out! 
+          <br />
+          Width: 
+          <input
+                    onChange={[Function]}
+          />
+          <br />
+          Height: 
+          <input
+                    onChange={[Function]}
+          />
+          <br />
+          Pony name:
+           
+          <select
+                    onChange={[Function]}
+          >
+                    <option
+                              value="Twilight Sparkle"
+                    >
+                              Twilight Sparkle
+                    </option>
+                    <option
+                              value="Rainbow Dash"
+                    >
+                              Rainbow Dash
+                    </option>
+                    <option
+                              value="Pinkie Pie"
+                    >
+                              Pinkie Pie
+                    </option>
+                    <option
+                              value="Rarity"
+                    >
+                              Rarity
+                    </option>
+                    <option
+                              value="Applejack"
+                    >
+                              Applejack
+                    </option>
+                    <option
+                              value="Fluttershy"
+                    >
+                              Fluttershy
+                    </option>
+                    <option
+                              value="Spike"
+                    >
+                              Spike
+                    </option>
+          </select>
+</div>,
+        <div
+          className="buttons"
+>
+          <button
+                    className="button"
+                    onClick={[Function]}
+          >
+                    Start a new maze
+          </button>
+</div>,
+        <div>
+          <pre>
+                    a maze view
+          </pre>
+          <button
+                    className="button"
+                    onClick={[Function]}
+          >
+                    Save the pony
+          </button>
+</div>,
+      ],
+      "className": "container c1",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Here is my amazing maze where you can save the pony from monster. Try it out! ",
+            <br />,
+            "Width: ",
+            <input
+              onChange={[Function]}
+/>,
+            <br />,
+            "Height: ",
+            <input
+              onChange={[Function]}
+/>,
+            <br />,
+            "Pony name:",
+            " ",
+            <select
+              onChange={[Function]}
+>
+              <option
+                            value="Twilight Sparkle"
+              >
+                            Twilight Sparkle
+              </option>
+              <option
+                            value="Rainbow Dash"
+              >
+                            Rainbow Dash
+              </option>
+              <option
+                            value="Pinkie Pie"
+              >
+                            Pinkie Pie
+              </option>
+              <option
+                            value="Rarity"
+              >
+                            Rarity
+              </option>
+              <option
+                            value="Applejack"
+              >
+                            Applejack
+              </option>
+              <option
+                            value="Fluttershy"
+              >
+                            Fluttershy
+              </option>
+              <option
+                            value="Spike"
+              >
+                            Spike
+              </option>
+</select>,
+          ],
+          "className": "description",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Here is my amazing maze where you can save the pony from monster. Try it out! ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          "Width: ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          "Height: ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          "Pony name:",
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <option
+                  value="Twilight Sparkle"
+>
+                  Twilight Sparkle
+</option>,
+                <option
+                  value="Rainbow Dash"
+>
+                  Rainbow Dash
+</option>,
+                <option
+                  value="Pinkie Pie"
+>
+                  Pinkie Pie
+</option>,
+                <option
+                  value="Rarity"
+>
+                  Rarity
+</option>,
+                <option
+                  value="Applejack"
+>
+                  Applejack
+</option>,
+                <option
+                  value="Fluttershy"
+>
+                  Fluttershy
+</option>,
+                <option
+                  value="Spike"
+>
+                  Spike
+</option>,
+              ],
+              "onChange": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Twilight Sparkle",
+                  "value": "Twilight Sparkle",
+                },
+                "ref": null,
+                "rendered": "Twilight Sparkle",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Rainbow Dash",
+                  "value": "Rainbow Dash",
+                },
+                "ref": null,
+                "rendered": "Rainbow Dash",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Pinkie Pie",
+                  "value": "Pinkie Pie",
+                },
+                "ref": null,
+                "rendered": "Pinkie Pie",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Rarity",
+                  "value": "Rarity",
+                },
+                "ref": null,
+                "rendered": "Rarity",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Applejack",
+                  "value": "Applejack",
+                },
+                "ref": null,
+                "rendered": "Applejack",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Fluttershy",
+                  "value": "Fluttershy",
+                },
+                "ref": null,
+                "rendered": "Fluttershy",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Spike",
+                  "value": "Spike",
+                },
+                "ref": null,
+                "rendered": "Spike",
+                "type": "option",
+              },
+            ],
+            "type": "select",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <button
+            className="button"
+            onClick={[Function]}
+>
+            Start a new maze
+</button>,
+          "className": "buttons",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Start a new maze",
+            "className": "button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Start a new maze",
+          "type": "button",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <pre>
+              a maze view
+</pre>,
+            <button
+              className="button"
+              onClick={[Function]}
+>
+              Save the pony
+</button>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "a maze view",
+            },
+            "ref": null,
+            "rendered": "a maze view",
+            "type": "pre",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Save the pony",
+              "className": "button",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Save the pony",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="description"
+>
+            Here is my amazing maze where you can save the pony from monster. Try it out! 
+            <br />
+            Width: 
+            <input
+                        onChange={[Function]}
+            />
+            <br />
+            Height: 
+            <input
+                        onChange={[Function]}
+            />
+            <br />
+            Pony name:
+             
+            <select
+                        onChange={[Function]}
+            >
+                        <option
+                                    value="Twilight Sparkle"
+                        >
+                                    Twilight Sparkle
+                        </option>
+                        <option
+                                    value="Rainbow Dash"
+                        >
+                                    Rainbow Dash
+                        </option>
+                        <option
+                                    value="Pinkie Pie"
+                        >
+                                    Pinkie Pie
+                        </option>
+                        <option
+                                    value="Rarity"
+                        >
+                                    Rarity
+                        </option>
+                        <option
+                                    value="Applejack"
+                        >
+                                    Applejack
+                        </option>
+                        <option
+                                    value="Fluttershy"
+                        >
+                                    Fluttershy
+                        </option>
+                        <option
+                                    value="Spike"
+                        >
+                                    Spike
+                        </option>
+            </select>
+</div>,
+          <div
+            className="buttons"
+>
+            <button
+                        className="button"
+                        onClick={[Function]}
+            >
+                        Start a new maze
+            </button>
+</div>,
+          <div>
+            <pre>
+                        a maze view
+            </pre>
+            <button
+                        className="button"
+                        onClick={[Function]}
+            >
+                        Save the pony
+            </button>
+</div>,
+        ],
+        "className": "container c1",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Here is my amazing maze where you can save the pony from monster. Try it out! ",
+              <br />,
+              "Width: ",
+              <input
+                onChange={[Function]}
+/>,
+              <br />,
+              "Height: ",
+              <input
+                onChange={[Function]}
+/>,
+              <br />,
+              "Pony name:",
+              " ",
+              <select
+                onChange={[Function]}
+>
+                <option
+                                value="Twilight Sparkle"
+                >
+                                Twilight Sparkle
+                </option>
+                <option
+                                value="Rainbow Dash"
+                >
+                                Rainbow Dash
+                </option>
+                <option
+                                value="Pinkie Pie"
+                >
+                                Pinkie Pie
+                </option>
+                <option
+                                value="Rarity"
+                >
+                                Rarity
+                </option>
+                <option
+                                value="Applejack"
+                >
+                                Applejack
+                </option>
+                <option
+                                value="Fluttershy"
+                >
+                                Fluttershy
+                </option>
+                <option
+                                value="Spike"
+                >
+                                Spike
+                </option>
+</select>,
+            ],
+            "className": "description",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Here is my amazing maze where you can save the pony from monster. Try it out! ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            "Width: ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            "Height: ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            "Pony name:",
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <option
+                    value="Twilight Sparkle"
+>
+                    Twilight Sparkle
+</option>,
+                  <option
+                    value="Rainbow Dash"
+>
+                    Rainbow Dash
+</option>,
+                  <option
+                    value="Pinkie Pie"
+>
+                    Pinkie Pie
+</option>,
+                  <option
+                    value="Rarity"
+>
+                    Rarity
+</option>,
+                  <option
+                    value="Applejack"
+>
+                    Applejack
+</option>,
+                  <option
+                    value="Fluttershy"
+>
+                    Fluttershy
+</option>,
+                  <option
+                    value="Spike"
+>
+                    Spike
+</option>,
+                ],
+                "onChange": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Twilight Sparkle",
+                    "value": "Twilight Sparkle",
+                  },
+                  "ref": null,
+                  "rendered": "Twilight Sparkle",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Rainbow Dash",
+                    "value": "Rainbow Dash",
+                  },
+                  "ref": null,
+                  "rendered": "Rainbow Dash",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Pinkie Pie",
+                    "value": "Pinkie Pie",
+                  },
+                  "ref": null,
+                  "rendered": "Pinkie Pie",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Rarity",
+                    "value": "Rarity",
+                  },
+                  "ref": null,
+                  "rendered": "Rarity",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Applejack",
+                    "value": "Applejack",
+                  },
+                  "ref": null,
+                  "rendered": "Applejack",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Fluttershy",
+                    "value": "Fluttershy",
+                  },
+                  "ref": null,
+                  "rendered": "Fluttershy",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Spike",
+                    "value": "Spike",
+                  },
+                  "ref": null,
+                  "rendered": "Spike",
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className="button"
+              onClick={[Function]}
+>
+              Start a new maze
+</button>,
+            "className": "buttons",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Start a new maze",
+              "className": "button",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Start a new maze",
+            "type": "button",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <pre>
+                a maze view
+</pre>,
+              <button
+                className="button"
+                onClick={[Function]}
+>
+                Save the pony
+</button>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "a maze view",
+              },
+              "ref": null,
+              "rendered": "a maze view",
+              "type": "pre",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Save the pony",
+                "className": "button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Save the pony",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
