@@ -1,0 +1,40 @@
+
+.container {
+	background-color: lightgray;
+	text-align: center;
+	width: 80%;
+    align-self: center;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.button {
+	padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	color: hsla(0, 0%, 90%, 1);
+	background: cornflowerblue;
+	border-radius: 10px;
+	box-shadow: 2px 2px 15px -5px hsla(0, 0%, 0%, 1);
+	display: inline-flex;
+}
+.button:hover {
+	background: linear-gradient(hsl(207.5, 84.8%, 51%), hsla(207, 84%, 62%, 1));
+	transition: all 0.2s linear;
+}
+
+.description {
+	margin-top: 10px;
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	font-size: 24px;
+	line-height: 40px;
+	letter-spacing: -1px;
+	color: rgb(37, 90, 134);
+    font-style: italic;
+    padding: 10px;
+}
